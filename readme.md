@@ -1,6 +1,8 @@
 # Data Provider Command Helpers
-This package contains a language extension method to reveal a parameterized SQL statement written using a managed data provider in C# or VB.NET programming languages.
+This repository contains a language extension method to reveal a parameterized SQL statement written using a managed data provider in C# or VB.NET programming languages.
 
+### NuGet command installation
+Install-Package DataProviderCommandHelpers -Version 1.0.0
 ### Instructions
 1 Add this package to your Visual Studio Solution.
 - Call RevealCommandQuery where cmd is a command object Console.WriteLine(cmd.RevealCommandQuery());
